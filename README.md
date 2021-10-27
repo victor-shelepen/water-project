@@ -1,3 +1,19 @@
+# Water project
+## Summary
+Single page, promotion website.
+## Development
+Project initialization
+```bash
+npm i
+```
+Run development server
+```bash
+npm start
+```
+Visit
+```
+http://localhost:8080
+```
 ## GitHub page deployment
 ### Create a temporary branch.
 ```
