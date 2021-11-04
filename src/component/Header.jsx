@@ -18,6 +18,8 @@ const useStyles = makeStyles((theme) => ({
 export default function () {
   const classes = useStyles();
 
+  const siteName = 'Water project'
+
   return (
     <div className={classes.root}>
       <AppBar position="static">
@@ -26,7 +28,7 @@ export default function () {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" color="inherit">
-            Photos
+            {siteName}
           </Typography>
         </Toolbar>
       </AppBar>
