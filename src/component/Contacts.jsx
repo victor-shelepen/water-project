@@ -4,7 +4,9 @@ export default function () {
 
   return (
     <>
-      Contacts
+      <div id="contactsSection" class="section">
+        Contacts
+      </div>
     </>
   )
 }
