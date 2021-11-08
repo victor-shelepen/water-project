@@ -12,6 +12,7 @@ export default function () {
       <Header />
       <Contacts />
       <Footer />
+      <div class='hero'></div>
     </>
   )
 }
