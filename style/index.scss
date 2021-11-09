@@ -1,7 +1,15 @@
+@import './lib/reset.scss';
+@import './lib/css-breakpoint-mixins.scss';
+
 .section {
   background: url("../images/swc-banner.jpg");
   background-size: cover;
   background-position: center;
   min-height: 300px;
   width: 100%;
+
+  @include for-desktop-up {
+    width: 1200px;
+    background: red;
+  }
 }
