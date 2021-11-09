@@ -33,7 +33,7 @@ module.exports = {
           // "postcss-loader",
           // according to the docs, sass-loader should be at the bottom, which
           // loads it first to avoid prefixes in your sourcemaps and other issues.
-          // "sass-loader",
+          "sass-loader",
         ],
       },
       {
