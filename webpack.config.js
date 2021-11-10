@@ -58,11 +58,19 @@ module.exports = {
         //   },
         // },
       },
+      {
+        test: /\.pug$/,
+        loader: 'pug-loader',
+        options: {
+          pretty: true
+        }
+      }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html"
+      template: path.join(__dirname, "./pages/index.pug"),
+      filename: 'index.html'
     }),
     new MiniCssExtractPlugin()
   ]
