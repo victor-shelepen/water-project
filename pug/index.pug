@@ -1,5 +1,11 @@
 extends layout
 
 block body
-  | Extentded...
-  | Some text  
+  include ./component/header
+  div#section-container
+    div.section.promotion
+      include ./section/promotion
+  div#section-container
+    div#section-contact.section.contact
+      include ./section/contact
+  include ./component/footer

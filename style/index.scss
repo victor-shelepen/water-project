@@ -1,7 +1,10 @@
 @import './lib/reset.scss';
 @import './lib/css-breakpoint-mixins.scss';
 
-.section {
+// Sections.
+@import './section/promotion/style.scss';
+
+.section1234 {
   background: url("../images/swc-banner.jpg");
   background-size: cover;
   background-position: center;

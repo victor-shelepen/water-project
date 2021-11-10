@@ -12,12 +12,7 @@ export default function () {
   return (
     <>
       <div class='centeringContainer'>
-        <Header />
-        <Presentation />
-        <Promotion />
-        <Contacts />
-        <Footer />
-        <div class='hero'></div>
+        React application works.
       </div>
     </>
   )
