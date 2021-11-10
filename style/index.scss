@@ -4,6 +4,31 @@
 // Sections.
 @import './section/promotion/style.scss';
 
+#outer-body {
+  background: green;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+}
+
+.section-container {
+  background: blue;
+  display: flex;
+  width: 240px;
+}
+
+
 .section1234 {
   background: url("../images/swc-banner.jpg");
   background-size: cover;
