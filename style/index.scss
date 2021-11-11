@@ -5,7 +5,6 @@
 @import './section/promotion/style.scss';
 
 #outer-body {
-  background: green;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -23,9 +22,12 @@ footer {
 }
 
 .section-container {
-  background: blue;
   display: flex;
-  width: 240px;
+  width: 100%;
+
+  @include for-desktop-up {
+    width: 1200px;
+  }
 }
 
 
