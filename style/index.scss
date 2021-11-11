@@ -5,6 +5,10 @@
 @import './section/promotion/style.scss';
 @import './section/etaps/style.scss';
 
+body {
+  font-family: Play;
+}
+
 #outer-body {
   display: flex;
   width: 100%;
