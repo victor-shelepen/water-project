@@ -1,0 +1,85 @@
+$images: './section/from_manufacture/images';
+
+.section.from_manufacture {
+  background: white;
+  padding: 24px;
+
+  >.title {
+    font-size: 58px;
+    text-align: left;
+  }
+
+  >.subtitle {
+    font-size: 46px;
+    text-align: left;
+  }
+
+  >.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+
+    >.list {
+      flex: 1;
+
+      >.item {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 12px;
+
+        >.image {
+          width: 64px;
+          height: 64px;
+          background-image: url("#{$images}/a1.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: left;
+
+          &.a1 {
+            background-image: url("#{$images}/a1.png");
+          }
+
+          &.a2 {
+            background-image: url("#{$images}/a2.png");
+          }
+
+          &.a3 {
+            background-image: url("#{$images}/a3.png");
+          }
+
+          &.a4 {
+            background-image: url("#{$images}/a4.png");
+          }
+        }
+
+        >.container {
+          flex: 1;
+          padding-left: 12px;
+
+          >.title {
+            font-size: 24px;
+            font-weight: bold;
+          }
+
+          >.subtitle {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    >.bottle {
+      width: 256px;
+      height: 350px;
+      background: url("#{$images}/bg_advantages.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+      display: none;
+
+      @include for-tablet-landscape-up {
+        display: block;
+      }
+    }
+  }
+}

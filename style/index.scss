@@ -1,9 +1,13 @@
 @import './lib/reset.scss';
 @import './lib/css-breakpoint-mixins.scss';
 
+// Components.
+@import './component/footer/style.scss';
+
 // Sections.
 @import './section/promotion/style.scss';
 @import './section/etaps/style.scss';
+@import './section/from_manufacture/style.scss';
 
 body {
   font-family: Play;
