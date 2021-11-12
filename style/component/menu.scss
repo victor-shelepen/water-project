@@ -1,0 +1,19 @@
+.component.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  >a {
+    padding: 24px;
+    text-decoration-line: none;
+    color: blue;
+
+    &:visited {
+      color: blue;
+    }
+
+    &:hover {
+      color: navy;
+    }
+  }
+}

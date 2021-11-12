@@ -2,4 +2,16 @@ footer {
   padding: 24px;
   background: #eaedf1;
   justify-content: center;
+
+  >.page-container {
+    width: 100%;
+
+    @include for-desktop-up {
+      width: 1200px;
+    }
+
+    >.year {
+      text-align: center;
+    }
+  }
 }
