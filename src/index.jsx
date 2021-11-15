@@ -1,3 +1,5 @@
+import './on-scroll'
+
 import '../style/index.scss'
 
 document.addEventListener('DOMContentLoaded', function() {
