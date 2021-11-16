@@ -75,9 +75,13 @@ $images: './section/from_manufacture/images';
       background-size: cover;
       background-repeat: no-repeat;
       background-position: left;
+      opacity: 1;
       display: none;
 
+
       @include for-tablet-landscape-up {
+        animation-duration: 5s;
+        animation-name: fade-out;
         display: block;
       }
     }

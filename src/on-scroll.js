@@ -9,7 +9,11 @@ function doSomething(scroll_pos) {
       element.classList.add('is-visible');
       console.log('is visible')
     } else {
-      element.classList.remove('is-visible');
+      if (element.classList.contains('show-once')) {
+        // Pass.
+      } else {
+        element.classList.remove('is-visible');
+      }
     }
   });
 }

@@ -15,6 +15,11 @@ $images: './section/etaps/images';
   >.title {
     font-size: 24px;
     padding-bottom: 12px;
+
+    &.is-visible {
+      animation-duration: 5s;
+      animation-name: fade-out;
+    }
   }
 
   >.container {

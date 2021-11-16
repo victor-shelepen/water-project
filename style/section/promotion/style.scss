@@ -36,6 +36,8 @@ $images: './section/promotion/images';
 
       @include for-tablet-landscape-up {
         display: block;
+        animation-duration: 5s;
+        animation-name: fade-out;
       }
     }
 
