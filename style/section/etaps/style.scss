@@ -41,6 +41,25 @@ $images: './section/etaps/images';
       border-width: 0 0 1px 0;
       padding: 6px;
       display: flex;
+      transform: translate(100%, 0px);
+
+      &.one {}
+
+      &.two {
+        animation-delay: 3s;
+      }
+
+      &.three {
+        animation-delay: 6s;
+      }
+
+      &.show-on-scroll {
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-name: padding-out;
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
 
       @include for-tablet-landscape-up {
         border-width: 0 1px 0 0;
